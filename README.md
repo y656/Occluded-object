@@ -1,4 +1,4 @@
-# Occluded-object
+# Occluded-object detection in Aerial Imagery
 The occluded dataset creation process involved applying three distinct types of occlusions - Cloud, Rainy, and Foggy - to the high-resolution images extracted from the DOTA dataset. These occlusions were generated using the Python image-augmenter library, which allowed for the controlled introduction of weather-related visual impairments.
 
 To manage the computational demands of working with high-resolution images, patches of the DOTA dataset were selected using the DOTA devkit. This patch-based approach helped reduce the input size while retaining the relevant information for the experiment.
